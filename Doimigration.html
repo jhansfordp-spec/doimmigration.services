@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doimigration</title>
+    <link rel="icon" type="image/jpeg" href="Fotos/fondo 2.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/flip-cards.css">
+</head>
+
+<body>
+
+    <!-- ========================================
+         FALLING STARS ANIMATION BACKGROUND
+         Stars will be visible from "Nuestra Esencia" section
+         until "Hemos representado a numerosas personas" section
+         ======================================== -->
+    <div class="star-rain-container">
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+        <div class="star-drop"></div>
+    </div>
+
+    <!-- ========================================
+         MODERN MINIMAL HEADER - Clean Design
+         ======================================== -->
+    <header>
+        <nav>
+            <div class="nav-links-left">
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#nosotros" class="nav-link">Nosotros</a>
+            </div>
+
+            <div class="logo-container">
+                <img src="Fotos/Logo 2.jpeg" alt="DOImmigration" class="logo-img-center">
+            </div>
+
+            <div class="nav-actions-right">
+                <a href="#testimonios" class="nav-link">Testimonios</a>
+                <a href="#instagram" class="nav-link">Instagram</a>
+                <a href="#contacto" class="btn-nav">Contacto</a>
+                <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon" id="modeIcon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========================================
+         HERO SECTION - Full-screen Image Slider
+         Contains welcome message and call-to-action buttons
+         Auto-rotating background images
+         ======================================== -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 id="title">Doimigration: Tu Camino Seguro desde República Dominicana hacia el mundo entero</h1>
+            <p id="subtitle">Expertos en trámites migratorios para una experiencia sin complicaciones.</p>
+            <div class="hero-btns" id="buttons">
+                <a href="#contacto" class="btn btn-primary">Agenda Tu Cita</a>
+                <a href="#servicios" class="btn btn-secondary">Ver Servicios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         ADVISOR SECTION - Meet Our Migration Advisor
+         Displays advisor photo and credentials
+         ======================================== -->
+    <section class="section advisor" id="nosotros">
+        <h2 class="section-title">Nuestra Asesora Migratoria</h2>
+        <img src="Fotos/Ambar.jpeg" alt="Asesora" class="advisor-img">
+        <h4>Lic. Ambar Cedeño</h4>
+        <p>Asesora Migratoria Certificada</p>
+    </section>
+
+    <!-- ========================================
+         MISSION, VISION & VALUES SECTION - "Nuestra Esencia"
+         Displays company mission, vision, and core values
+         Includes animated icons and falling stars background
+         ======================================== -->
+    <section class="section mission-vision-values">
+        <div class="mvv-container">
+            <div class="mvv-header">
+                <div class="falling-stars">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                </div>
+                <h2 class="section-title">Nuestra Esencia</h2>
+                <p class="section-subtitle">Los principios que guían nuestro trabajo</p>
+            </div>
+
+            <div class="mvv-grid">
+                <div class="mvv-card mission-card">
+                    <div class="mvv-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Misión</h3>
+                    <p>En DOImmigration acompañamos a las personas en sus procesos migratorios hacia República
+                        Dominicana, Estados Unidos, Canadá y países de Europa, brindando orientación clara, ética y
+                        responsable en cada paso. Nuestro compromiso es ofrecer un servicio transparente y humano, en el
+                        que la confianza, la comunicación abierta y el respeto por la historia de cada cliente sean la
+                        base para lograr soluciones seguras y efectivas que les permitan construir nuevos caminos y
+                        cumplir sus sueños.</p>
+                </div>
+
+                <div class="mvv-card vision-card">
+                    <div class="mvv-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Visión</h3>
+                    <p>En DOImmigration comprendemos que cada proceso migratorio nace de un sueño, una meta o el deseo
+                        de abrir nuevos caminos. Aspiramos a continuar fortaleciendo una cultura de servicio responsable
+                        que aporte claridad, seguridad y tranquilidad a cada persona que decida construir un nuevo
+                        comienzo. Nuestra prioridad es que cada uno de nuestros clientes avance con confianza hacia
+                        nuevas oportunidades en el país que elija.</p>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <h3 class="values-title">Nuestros Valores</h3>
+                <div class="values-grid">
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>Honestidad</h4>
+                        <p>Actuamos con transparencia en cada orientación y proceso. Comunicamos la información real y
+                            las posibilidades del caso, asegurando que cada cliente pueda tomar su decisión con
+                            conocimiento y claridad.</p>
+                    </div>
+
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Responsabilidad</h4>
+                        <p>Asumimos cada expediente con la seriedad y confidencialidad que merece. Nos comprometemos a
+                            cumplir los plazos según cada país, cuidar los detalles y mantener una gestión ordenada y
+                            confiable.</p>
+                    </div>
+
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                        <h4>Confianza</h4>
+                        <p>Construimos relaciones basadas en la credibilidad, la privacidad y el respeto. Nuestro
+                            objetivo es que cada cliente se sienta acompañado, seguro y en manos profesionales.</p>
+                    </div>
+
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Trato Humano</h4>
+                        <p>Reconocemos que detrás de cada proceso migratorio hay sueños, esfuerzos y emociones.
+                            Brindamos un acompañamiento cercano, empático y personalizado.</p>
+                    </div>
+
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h4>Profesionalismo</h4>
+                        <p>Trabajamos con criterios técnicos, actualización constante y apego a las normas migratorias,
+                            garantizando un servicio sólido, ético y bien fundamentado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES SECTION - Interactive Flip Cards
+         Displays all migration services with flip card animations
+         Includes work visas, residency, family reunification, etc.
+         ======================================== -->
+    <section class="logo-section" id="servicios">
+        <div class="services-header-container">
+            <div class="services-title-block">
+                <i class="fas fa-plane"></i>
+                <h2>Nuestros Servicios</h2>
+                <i class="fas fa-plane"></i>
+            </div>
+            <p class="services-subtitle">
+                Servicios especializados en trámites migratorios para República Dominicana e internacionales
+            </p>
+        </div>
+
+        <div class="services-flip-grid">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Fotos/composicion-de-la-solicitud-de-visa-con-bandera-americana (1).jpg"
+                            alt="Visas de Trabajo">
+                        <div class="front-content-overlay">
+                            <div class="front-title">Visas de Trabajo</div>
+                            <div class="front-link">→ Ver más</div>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="back-title">Visas de Trabajo</div>
+                        <p class="back-desc">Asesoría completa para obtener visas laborales en RD y el extranjero.</p>
+                        <ul class="back-list">
+                            <li>Evaluación de elegibilidad</li>
+                            <li>Gestión de contratos</li>
+                            <li>Permisos temporales</li>
+                        </ul>
+                        <a href="#contacto" class="btn-card">Solicitar Información</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Fotos/tarjeta-de-residente-permanente-en-us-y-mapa.jpg" alt="Residencia">
+                        <div class="front-content-overlay">
+                            <div class="front-title">Residencia</div>
+                            <div class="front-link">→ Ver más</div>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="back-title">Residencia</div>
+                        <p class="back-desc">Te acompañamos en todo el proceso para establecerte legalmente.</p>
+                        <ul class="back-list">
+                            <li>Residencia Temporal y Definitiva</li>
+                            <li>Renovaciones anuales</li>
+                            <li>Residencia por Inversión</li>
+                        </ul>
+                        <a href="#contacto" class="btn-card">Solicitar Información</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Fotos/me-alegraste-el-dia-foto-de-dos-jovenes-empresarias-hablando-entre-si-mientras-estaban-sentadas-en-la-oficina-en-el-trabajo.jpg"
+                            alt="Reunificación Familiar">
+                        <div class="front-content-overlay">
+                            <div class="front-title">Reunificación Familiar</div>
+                            <div class="front-link">→ Ver más</div>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="back-title">Reunificación</div>
+                        <p class="back-desc">Vuelve a estar cerca de tus seres queridos con nuestra gestión experta.</p>
+                        <ul class="back-list">
+                            <li>Peticiones de esposos/hijos</li>
+                            <li>Visas de prometido(a) K1</li>
+                            <li>Affidavits de soporte</li>
+                        </ul>
+                        <a href="#contacto" class="btn-card">Solicitar Información</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Fotos/composicion-de-la-solicitud-de-visa-con-bandera-americana (2).jpg"
+                            alt="Naturalización">
+                        <div class="front-content-overlay">
+                            <div class="front-title">Naturalización</div>
+                            <div class="front-link">→ Ver más</div>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="back-title">Naturalización</div>
+                        <p class="back-desc">Obtén la ciudadanía y disfruta de todos los derechos legales.</p>
+                        <ul class="back-list">
+                            <li>Preparación para examen</li>
+                            <li>Juramentación</li>
+                            <li>Doble nacionalidad</li>
+                        </ul>
+                        <a href="#contacto" class="btn-card">Solicitar Información</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Fotos/composicion-de-la-solicitud-de-visa-con-diferentes-banderas.jpg"
+                            alt="Visas Internacionales">
+                        <div class="front-content-overlay">
+                            <div class="front-title">Visas Internacionales</div>
+                            <div class="front-link">→ Ver más</div>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="back-title">Visas Internacionales</div>
+                        <p class="back-desc">Gestión de visados de turismo y negocios para múltiples destinos.</p>
+                        <ul class="back-list">
+                            <li>Visa Americana (B1/B2)</li>
+                            <li>Visa Schengen (Europa)</li>
+                            <li>Visas Canadienses</li>
+                        </ul>
+                        <a href="#contacto" class="btn-card">Solicitar Información</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Fotos/casa-en-venta-inmobiliaria-mostrando-pareja-plan-de-vivienda-transversal.jpg"
+                            alt="Asesoría Migratoria">
+                        <div class="front-content-overlay">
+                            <div class="front-title">Asesoría Migratoria</div>
+                            <div class="front-link">→ Ver más</div>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="back-title">Asesoría Migratoria</div>
+                        <p class="back-desc">Consultas profesionales para resolver casos complejos o dudas específicas.
+                        </p>
+                        <ul class="back-list">
+                            <li>Análisis de perfil</li>
+                            <li>Manejo de rechazos previos</li>
+                            <li>Planificación migratoria</li>
+                        </ul>
+                        <a href="#contacto" class="btn-card">Solicitar Información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section-wrapper">
+            <div class="cta-banner">
+                <h2>¿Necesitas más información sobre nuestros servicios?</h2>
+                <p>Agenda una cita con nuestra asesora certificada y recibe orientación personalizada</p>
+                <a href="#contacto" class="cta-btn-dark">Agenda Tu Cita Ahora</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         TESTIMONIALS SECTION - Client Reviews
+         Displays customer testimonials with ratings
+         ======================================== -->
+    <section class="section testimonial-section" id="testimonios">
+        <h2 class="section-title">Lo Que Dicen Nuestros Clientes</h2>
+        <div class="testimonial">
+            <div class="user-info">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" class="user-avatar">
+                <div>
+                    <strong>Carlos Rodriguez</strong><br>
+                    <small>Hace 3 días</small>
+                </div>
+            </div>
+            <div class="stars">★★★★★</div>
+            <p>"Excelente servicio. Me ayudaron con todo el proceso de visa de trabajo y siempre estuvieron
+                pendientes de cada detalle. Definitivamente los recomiendo."</p>
+        </div>
+    </section>
+
+    <!-- ========================================
+         INSTAGRAM SECTION - Social Media Gallery
+         Displays Instagram feed and follow button
+         ======================================== -->
+    <section class="instagram-section" id="instagram">
+        <h2>Síguenos en Instagram</h2>
+        <div class="instagram-gallery">
+            <div class="instagram-item">
+                <img src="Fotos/tener-pasaporte-y-tarjeta-de-embarque.jpg" alt="Instagram 1">
+            </div>
+            <div class="instagram-item">
+                <img src="Fotos/manos-sosteniendo-boletos-de-cerca.jpg" alt="Instagram 2">
+            </div>
+            <div class="instagram-item">
+                <img src="Fotos/paris-francia-torre-eiffel.jpg" alt="Instagram 3">
+            </div>
+            <div class="instagram-item">
+                <img src="Fotos/mapa-mundial-de-espana-con-pasaporte-en-la-parte-superior-concepto-de-aventura-de-espana-con-pasaporte.jpg"
+                    alt="Instagram 4">
+            </div>
+        </div>
+        <a href="https://www.instagram.com/doimigration/" target="_blank" class="instagram-btn"><i
+                class="fab fa-instagram"></i> Seguir en Instagram</a>
+    </section>
+
+
+    <!-- ========================================
+         FAQ SECTION - Frequently Asked Questions
+         Accordion-style questions and answers
+         ======================================== -->
+    <section class="section">
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+        <p class="section-subtitle">Encuentra respuestas a las dudas más comunes sobre nuestros servicios</p>
+
+        <div class="faq-container">
+            <!-- General Questions about Services -->
+            <div class="accordion-item">
+                <details>
+                    <summary>¿Es obligatoria la cita?</summary>
+                    <p class="faq-answer">Sí, recomendamos agendar una cita para brindarle una atención
+                        personalizada y revisar su caso a detalle.</p>
+                </details>
+            </div>
+            <div class="accordion-item">
+                <details>
+                    <summary>¿Qué documentos necesito para solicitar residencia?</summary>
+                    <p class="faq-answer">Los documentos varían según el tipo de residencia, pero generalmente
+                        incluyen pasaporte vigente, acta de nacimiento, certificados de no antecedentes penales, entre
+                        otros.</p>
+                </details>
+            </div>
+            <div class="accordion-item">
+                <details>
+                    <summary>¿Ofrecen servicios en línea?</summary>
+                    <p class="faq-answer">Sí, ofrecemos consultas virtuales a través de Zoom o Google Meet para
+                        clientes internacionales.</p>
+                </details>
+            </div>
+
+            <!-- Questions about Migration Advisory Services -->
+            <div class="accordion-item">
+                <details>
+                    <summary>¿Cuáles son las causas más comunes del rechazo?</summary>
+                    <p class="faq-answer">Las causas más comunes van a depender del tipo de servicio o solicitud que se
+                        esté realizando. En el caso de las visas de paseo tenemos:</p>
+                    <ul class="faq-list">
+                        <li>No contar con un perfil adecuado para realizar la solicitud del visado</li>
+                        <li>Colocar o suministrar documentación fraudulenta tanto en los formularios como en las
+                            embajadas</li>
+                        <li>No poder demostrar suficientes lazos económicos, familiares, profesionales y sociales</li>
+                        <li>No contar con una justificación del viaje clara y transparente</li>
+                    </ul>
+                </details>
+            </div>
+
+            <div class="accordion-item">
+                <details>
+                    <summary>¿Puedo volver a aplicar si mi visa es negada?
+                    </summary>
+                    <p class="faq-answer">Sí, se puede volver a aplicar una vez te hayan negado el visado. Esta nueva
+                        aplicación va a depender de un análisis de la solicitud anterior, reunir la información y
+                        documentación adecuada y prepararte mejor para tu próxima aplicación.</p>
+                </details>
+            </div>
+
+            <div class="accordion-item">
+                <details>
+                    <summary>¿Necesito saber inglés para una entrevista consular?</summary>
+                    <p class="faq-answer">No, no es relevante el idioma en el que te comunicas para las visas B1/B2. Lo
+                        importante es tener un expediente bien preparado y tener claridad y confianza al momento de tu
+                        entrevista con el cónsul.</p>
+                </details>
+            </div>
+
+            <div class="accordion-item">
+                <details>
+                    <summary>¿Dónde debo solicitar mi visa si pienso viajar a Europa?</summary>
+                    <p class="faq-answer">El visado Schengen se solicita dependiendo del país que vayas a visitar o en
+                        el país que vayas a permanecer más tiempo.</p>
+                </details>
+            </div>
+
+            <div class="accordion-item">
+                <details>
+                    <summary>¿Si alguno de mis padres o mi pareja ha sido deportado por algún país puedo aplicar a la
+                        visa?</summary>
+                    <p class="faq-answer">Sí, la solicitud de visa es independiente por lo que esto no afectaría la
+                        solicitud si se toma en cuenta esa información relevante.</p>
+                </details>
+            </div>
+
+            <div class="accordion-item">
+                <details>
+                    <summary>¿Puedo quedarme más tiempo del permitido con mi visa de paseo?</summary>
+                    <p class="faq-answer">No, no es recomendable que excedas el tiempo permitido para permanecer en ese
+                        país que contempla tu tipo de visado ya sea en Estados Unidos, Europa o Canadá.</p>
+                </details>
+            </div>
+
+            <div class="accordion-item">
+                <details>
+                    <summary>¿Puedo solicitar visa de paseo para EU con mi pareja o esposo?</summary>
+                    <p class="faq-answer">Sí, tomando en cuenta que serán 2 formularios diferentes pero irán acompañados
+                        del otro a la entrevista consular como pareja.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         CONTACT SECTION - Get in Touch
+         Contains contact information, map, and contact form
+         ======================================== -->
+    <section class="contact-section" id="contacto">
+        <h2 class="contact-title">Contacto</h2>
+        <div class="title-line"></div>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-text">
+                    <strong>Dirección:</strong>
+                    <span>Salvaleón de Higüey, La Altagracia Zona Laboral, República Dominicana</span>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div class="contact-text">
+                    <strong>Teléfono:</strong>
+                    <span>+1 (809) 456-3990</span>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">✉️</div>
+                <div class="contact-text">
+                    <strong>Email:</strong>
+                    <span>infodoimigration@gmail.com</span>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.123456789!2d-68.7134791!3d18.6138561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea8b9cefeaa1a07%3A0x49fda1b1cd84fab0!2sZona%20Laboral!5e0!3m2!1ses!2sdo!4v1734780000000"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <h3 class="form-title">Envíanos un Mensaje</h3>
+            <form action="https://formspree.io/f/tu_id" method="POST">
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Mensaje</label>
+                    <textarea name="mensaje" maxlength="500" required></textarea>
+                    <div class="char-counter">0/500 caracteres</div>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+            </form>
+        </div>
+
+        <!-- Script for character counter -->
+        <script>
+            // Character counter logic
+            const textarea = document.querySelector('textarea');
+            const counter = document.querySelector('.char-counter');
+            if (textarea && counter) {
+                textarea.addEventListener('input', () => {
+                    counter.textContent = `${textarea.value.length}/500 caracteres`;
+                });
+            }
+
+            // Scroll Animation Observer for Contact Section
+            const contactObserverOptions = {
+                threshold: 0.1,
+                rootMargin: "0px 0px -50px 0px"
+            };
+
+            const contactObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, contactObserverOptions);
+
+            const animatedElements = document.querySelectorAll('.contact-item, .map-container, .form-container');
+            animatedElements.forEach(el => contactObserver.observe(el));
+        </script>
+    </section>
+
+
+
+    <!-- ========================================
+         FOOTER - Site Information
+         Contains logo, copyright, and social media links
+         ======================================== -->
+    <footer>
+        <img src="Fotos/Logo 2.jpeg" alt="DOImmigration" class="footer-logo">
+        <p>Derechos Reservados © 2025 DOImmigration</p>
+        <div class="social-icons">
+            <i class="fab fa-facebook fa-lg"></i>
+            <i class="fab fa-instagram fa-lg"></i>
+            <i class="fab fa-tiktok fa-lg"></i>
+        </div>
+        <p class="footer-credit">Created by Jhansfordx</p>
+    </footer>
+
+    <!-- Floating WhatsApp Button - Opens chat with business phone -->
+    <a href="https://wa.me/18094563990" target="_blank" class="whatsapp-float" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a> <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="Ir arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // ========================================
+        // SCROLL TO TOP BUTTON FUNCTIONALITY
+        // Shows/hides button based on scroll position
+        // ========================================
+        const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        }
+
+        scrollTopBtn.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+
+        // ========================================
+        // SMOOTH SCROLL FOR NAVIGATION LINKS
+        // Enables smooth scrolling when clicking navigation links
+        // ========================================
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                // Prevent default only if the href is an actual section (not just "#")
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    const headerOffset = 80; // Account for fixed header
+                    const elementPosition = target.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: "smooth"
+                    });
+                }
+            });
+        });
+
+        // ========================================
+        // DARK MODE TOGGLE FUNCTIONALITY
+        // Toggles between light and dark mode with localStorage persistence
+        // ========================================
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const modeIcon = document.getElementById('modeIcon');
+        const htmlElement = document.documentElement;
+
+        // Check for saved dark mode preference
+        if (localStorage.getItem('doimigration-theme') === 'dark') {
+            htmlElement.classList.add('dark');
+            modeIcon.classList.remove('fa-moon');
+            modeIcon.classList.add('fa-sun');
+        }
+
+        darkModeToggle.addEventListener('click', () => {
+            htmlElement.classList.toggle('dark');
+
+            // Toggle icon between moon and sun
+            if (htmlElement.classList.contains('dark')) {
+                modeIcon.classList.remove('fa-moon');
+                modeIcon.classList.add('fa-sun');
+                localStorage.setItem('doimigration-theme', 'dark');
+            } else {
+                modeIcon.classList.remove('fa-sun');
+                modeIcon.classList.add('fa-moon');
+                localStorage.setItem('doimigration-theme', 'light');
+            }
+        });
+
+        // ========================================
+        // FAQ ACCORDION ENHANCEMENT
+        // Improves FAQ accordion with smooth animations and better UX
+        // ========================================
+        document.querySelectorAll('.accordion-item details').forEach((detail) => {
+            detail.addEventListener('toggle', function () {
+                if (this.open) {
+                    // Close other open details (optional - for one-at-a-time behavior)
+                    // Uncomment the following lines if you want only one FAQ open at a time
+                    /*
+                    document.querySelectorAll('.accordion-item details').forEach((otherDetail) => {
+                        if (otherDetail !== this && otherDetail.open) {
+                            otherDetail.open = false;
+                        }
+                    });
+                    */
+
+                    // Smooth scroll to the opened question
+                    setTimeout(() => {
+                        const headerOffset = 100;
+                        const elementPosition = this.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: "smooth"
+                        });
+                    }, 100);
+                }
+            });
+        });
+
+        // ========================================
+        // FORM VALIDATION & CHARACTER COUNTER
+        // Validates contact form and shows character count for message field
+        // ========================================
+        const contactForm = document.querySelector('.contact-form-wrapper form');
+        const messageTextarea = contactForm.querySelector('textarea');
+        const maxChars = 500;
+
+        // Add character counter
+        messageTextarea.addEventListener('input', function () {
+            const currentLength = this.value.length;
+            this.placeholder = `${currentLength}/${maxChars} caracteres`;
+
+            // Limit to max characters
+            if (currentLength > maxChars) {
+                this.value = this.value.substring(0, maxChars);
+            }
+        });
+
+        // Form validation
+        contactForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const nameInput = this.querySelector('input[type="text"]');
+            const emailInput = this.querySelector('input[type="email"]');
+            const messageInput = this.querySelector('textarea');
+
+            let isValid = true;
+
+            // Validate name
+            if (nameInput.value.trim() === '') {
+                alert('Por favor, ingresa tu nombre.');
+                nameInput.focus();
+                isValid = false;
+                return;
+            }
+
+            // Validate email
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(emailInput.value)) {
+                alert('Por favor, ingresa un correo electrónico válido.');
+                emailInput.focus();
+                isValid = false;
+                return;
+            }
+
+            // Validate message
+            if (messageInput.value.trim() === '' || messageInput.value.length < 10) {
+                alert('Por favor, ingresa un mensaje de al menos 10 caracteres.');
+                messageInput.focus();
+                isValid = false;
+                return;
+            }
+
+            if (isValid) {
+                alert('¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto.');
+                this.reset();
+                messageTextarea.placeholder = '0/500 caracteres';
+            }
+        });
+
+        // ========================================
+        // FALLING STARS ANIMATION CONTROL
+        // Controls visibility of falling stars animation
+        // Stars visible during "Nuestra Esencia" section
+        // ========================================
+        const starRainContainer = document.querySelector('.star-rain-container');
+        const missionSection = document.querySelector('.mission-vision-values');
+
+        // Create an Intersection Observer to monitor sections
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        // Observer for the mission section (show stars when visible)
+        const missionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    starRainContainer.style.opacity = '1';
+                } else {
+                    starRainContainer.style.opacity = '0';
+                }
+            });
+        }, observerOptions);
+
+        // Start observing
+        if (missionSection) missionObserver.observe(missionSection);
+
+        // Set initial state (stars hidden)
+        starRainContainer.style.opacity = '0';
+        starRainContainer.style.transition = 'opacity 0.8s ease-in-out';
+
+
+        // ========================================
+        // MOBILE MENU TOGGLE (if needed in future)
+        // Placeholder for mobile menu functionality
+        // ========================================
+        // Can be implemented when adding hamburger menu to the navigation
+
+        // ========================================
+        // HERO SLIDER AUTO-PLAY ENHANCEMENT
+        // Currently handled by CSS animations
+        // Can be enhanced with manual controls if needed
+        // ========================================
+    </script>
+
+    <!-- JavaScript para animación al cargar y al hacer scroll -->
+    <script>
+        // Función para activar la animación cuando el hero esté visible
+        function checkVisibility() {
+            const hero = document.querySelector('.hero');
+            const title = document.getElementById('title');
+            const subtitle = document.getElementById('subtitle');
+            const buttons = document.getElementById('buttons');
+
+            // Safety check if elements exist
+            if (!hero || !title || !subtitle || !buttons) return;
+
+            const rect = hero.getBoundingClientRect();
+            const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+
+            if (isVisible) {
+                title.classList.add('animate-in');
+                subtitle.classList.add('animate-in');
+                buttons.classList.add('animate-in');
+            }
+        }
+
+        // Ejecutar al cargar la página
+        window.addEventListener('load', () => {
+            // Pequeño retraso para que se vea la animación incluso si carga rápido
+            setTimeout(checkVisibility, 300);
+        });
+
+        // Ejecutar también al hacer scroll (por si el usuario recarga abajo)
+        window.addEventListener('scroll', checkVisibility);
+
+        // Activar inmediatamente si ya está visible al cargar
+        checkVisibility();
+    </script>
+</body>
+
+</html>
